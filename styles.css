@@ -1,0 +1,85 @@
+/*
+  Albert Wang
+  4/18/23
+  CSE 154 AG
+  This css file provides styles to my introduction portfolio. It is used by all
+  pages related to my personal introduction, having special styles on emphasized
+  content like purple background and other formats, formatting the image pictures
+  for proper screen sizes.
+*/
+#web-class {
+  font-family: 'Courgette', cursive;
+}
+
+#classes, #specialties ol li {
+  text-transform: capitalize;
+}
+
+#city-look {
+  width: 70%;
+}
+
+#nightcherries,
+img[src='https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg'],
+img[src='https://www.seriouseats.com/thmb/_NG-wMfnkk8morFmrzng64FGmQs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__02__20141125-hot-pot-guide-shao-zhong-17-840d212f16344f479e521b4f0efbe154.jpg'],
+img[src='https://people.com/thmb/VN7ExxD_pxDIXtTZpWxuZXY9VjM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(670x0:672x2)/MSDFOGU_EC001_preview-6f5fe67fd675494d82cf8ac3cb34ce45.jpg'],
+img[src='https://www.goodnewsnetwork.org/wp-content/uploads/2022/02/gaming-controllers-and-sports-game-pubdomain-JESHOOTS.jpg'],
+img[src='https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/12/pkvleqqdcqrj5iorriv2/skateboarding'
+] {
+  width: 20%;
+  height: 20%;
+}
+
+#image_holder img {
+  display: block;
+  margin: 0 auto;
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.night-mode {
+  background-color: black;
+  color: white;
+}
+
+.italic-text, h1 {
+  font-style: italic;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  background-color: blueviolet;
+}
+
+section > h2 {
+  color: blue;
+}
+
+h3 {
+  font-size: larger;
+}
+
+.mood, .gallery {
+  width: 50%;
+}
+
+.food {
+  width: 65%;
+}
+
+#specialties ol li {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#summary p {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #372;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+  Albert Wang
+  4/30/23
+  CSE 154 AG
+  Allison Ho & Tara Wueger
+  This html file is a short introduction about myself, my non-/academic
+  life and life attitude, including a page about personal introduction and
+  a second page embedded talking about my hometown. The page also shares interactivity
+  to the audience for guessing particular D&D attributes.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Albert Wang's Personal Page</title>
+  </head>
+  <body>
+    <section>
+      <h1>
+        Welcome to Albert's Primary Personal Webpage! Here you shall see my academic
+        activities, what am I into for non-academic life, my attitudes towards life and
+        my favorite quote!
+      </h1>
+      <button id="toggle-button">day/night mode</button>
+      <br>
+      <br>
+      <a href="hometown.html">Follow me in my virtual hometown tour!</a>
+      <br>
+      <br>
+      <a href="resume.html">Check out my resume!</a>
+      <p>
+        Hello! I am Albert Wang, currently a junior student majoring in Economics at UW.
+        During the break, I started to look into Artificial Intelligence, especially in the area
+        of Deep Learning. I look forward to gain capacity to build
+        myself a fancy, functional personal website in our class!
+      </p>
+    </section>
+    <section id="classes">
+      <h2>Classes I'm currently taking from most-to-least favorite</h2>
+      <ul>
+        <li id="web-class">CSE 154: web programming</li>
+        <li>CSE 416: introduction to machine learning</li>
+        <li>CSE 412: introduction to data visualization</li>
+        <li>CS&amp;SS 321: data science and statistics for social sciences 1</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Five of My Favorite Things</h2>
+      <ol>
+        <li><strong>Favorite animal:</strong> Wolf</li>
+        <li><strong>Favorite food:</strong> Chinese Hotpot</li>
+        <li><strong>Favorite movie:</strong> Forrest Gump</li>
+        <li><strong>Favorite hobby:</strong> Playing Video Games with My Friends</li>
+        <li><strong>Favorite sport:</strong> Skateboarding</li>
+      </ol>
+      <section id="image-holder">
+        <img id="nightcherries"
+        src="img_2087.jpg"
+        alt="Cherry Blossom in a Night">
+      </section>
+      <button id="favorites">Click me for random pictures of my favorites!</button>
+      <p>Picture resource
+        <a href="https://en.wikipedia.org/wiki/Wolf">here</a>
+        <a href="https://www.seriouseats.com/chinese-style-hot-pot-shrimp-ball-dipping-sauce-recipe"
+        >here</a>
+        <a href="https://people.com/movies/tom-hanks-paid-for-some-forrest-gump-scenes-not-in-budget-himself-including-the-famous-run/"
+        >here</a>
+        <a href="https://www.goodnewsnetwork.org/playing-video-games-can-help-people-make-new-friends/"
+        >here</a>
+        <a href="https://www.redbull.com/us-en/strength-training-skateboarding"
+        >here</a>
+      </p>
+      <p>
+        For movie information, view it on
+        <a href="https://en.wikipedia.org/wiki/Forrest_Gump">Wikipedia page</a>!
+      </p>
+    </section>
+
+    <section>
+      <h3>A picture that represents when I'm happy</h3>
+      <img class="mood"
+        src="https://postcardstoseattle.com/wp-content/webp-express/webp-images/uploads/2020/02/rainy-day-activities-in-seattle-downtown.jpg.webp"
+        alt="A Random Rainy Day in Seattle"
+      >
+      <p>Resource
+        <a href="https://postcardstoseattle.com/rainy-day-activities-in-seattle/">here</a>
+      </p>
+    </section>
+
+    <section>
+      <h3>A picture that represents when I'm sad</h3>
+      <img class="mood"
+        src="https://komonews.com/resources/media2/16x9/full/1050/center/80/b441f7d6-1160-4cef-81c2-278ad6aa1f90-large16x9_GettyImages1002492220.jpg?1567530664065"
+        alt="A Traffic Jam in Seattle">
+      <p>Resource
+        <a href="https://komonews.com/traffic/seattle-area-traffic-gridlock-congestion-back-at-pre-covid-pandemic-levels-is-this-the-new-normal">here</a>
+      </p>
+    </section>
+
+    <section>
+      <h3>One of my favorite quotes</h3>
+      <article>
+        <blockquote>
+          <p>
+            "If it doesn't challenge you, it won't change you." - Fred DeVito
+          </p>
+          <footer>
+            <p>By <a href="https://www.pinterest.com/pin/448600812879015298/">Fred Devito</a></p>
+            <p>API Resources are used from <cite>D&amp;D 5e </cite>(Retrieved May 4, 2023, from
+              https://www.dnd5eapi.co/docs/)
+            </p>
+          </footer>
+        </blockquote>
+      </article>
+    </section>
+
+    <section>
+      <p>
+        Wanna know more things about me? Check those buttons below!
+      </p>
+      <button id="personal-intro">Personal Introductions</button>
+      <select id="intro-type">
+        <option value="personal">Personal</option>
+        <option value="academic">Academic</option>
+      </select>
+      <input type="number" id="personal-intro-option-index" min="0"
+      placeholder="enter 0 or 1 for index">
+      <button id="resume">My Resume</button>
+      <select id="resume-type">
+        <option value="education">Education</option>
+        <option value="career">Career</option>
+        <option value="achievements">Achievements</option>
+      </select>
+      <div id="answer-spot"></div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* This stacks the children of the flex container vertically. */
+  text-align: center; /* This aligns the text in the center. */
+}
